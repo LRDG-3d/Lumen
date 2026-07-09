@@ -57,7 +57,12 @@ export default function App() {
 
       <style>{`
         .app-root { display: flex; min-height: 100vh; }
-        .app-main { flex: 1; min-width: 0; }
+        .app-main {
+          flex: 1; min-width: 0; position: relative;
+          background:
+            radial-gradient(600px 400px at 85% -5%, rgba(46,111,242,0.14), transparent 60%),
+            radial-gradient(500px 380px at 10% 15%, rgba(255,201,60,0.10), transparent 60%);
+        }
       `}</style>
     </div>
   )
