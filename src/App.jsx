@@ -63,6 +63,9 @@ export default function App() {
             radial-gradient(600px 400px at 85% -5%, rgba(46,111,242,0.14), transparent 60%),
             radial-gradient(500px 380px at 10% 15%, rgba(255,201,60,0.10), transparent 60%);
         }
+        @media (max-width: 900px) {
+          .app-root { flex-direction: column; }
+        }
       `}</style>
     </div>
   )

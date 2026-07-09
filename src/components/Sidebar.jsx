@@ -164,7 +164,7 @@ export default function Sidebar() {
 
         .mobile-topbar {
           display: none; align-items: center; justify-content: space-between; gap: 12px;
-          padding: max(14px, env(safe-area-inset-top)) 14px 14px; position: sticky; top: 0; z-index: 90;
+          width: 100%; padding: max(14px, env(safe-area-inset-top)) 14px 14px; position: sticky; top: 0; z-index: 90;
           background: rgba(7,11,20,0.9); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line);
         }
         .hamburger, .close-btn {
